@@ -28,31 +28,27 @@
 
 ## The Skills
 
-| Skill | What it does |
-| :--- | :--- |
-| `product-strategy` | ICP-first strategy with DHM moats, GLEe horizon exit criteria, GEM sequencing, OKRs |
-| `customer-discovery` | Continuous discovery, Opportunity Solution Trees, Mom-Test interviewing, churn triangulation |
-| `prd-writing` | Outcome briefs vs shaped pitches, context gate, evidence-weight rules, pushback protocol |
-| `prioritization` | Evidence-cited ranking, RICE-vs-debate decision criteria, GEM alignment checks |
-| `roadmap-planning` | Now/Next/Later horizons, hill charts, exec-safe uncertainty communication |
-| `metrics-analysis` | Step-0 instrumentation checks before diagnosis, North Star design, cohort & funnel discipline |
-| `pricing-packaging` | Value metrics, willingness-to-pay research, packaging, price-rise playbooks |
-| `gtm-launch` | Positioning (Dunford), GTM motion selection, staged rollout gates |
-| `growth-loops` | Loop taxonomy & mechanics, activation discipline, "no growth before retention" rule |
-| `decision-journal` | Prediction logging with calibration retros; small-sample vs large-sample rules |
-| `stakeholder-updates` | Outcome-based updates, health ratings, bad-news-early protocol |
-| `empowered-teams` | Empowered vs feature teams, outcome charters, team-topology transitions |
-| `glossary` | 34 canonical terms with owner attribution, usage-fork notes; refuses invented etymology |
-| `user-stories` | JTBD job stories, story mapping, INVEST/Gherkin craft, splitting patterns, volume-demand pushback |
-| `experiment-design` | Experiment menu with power/peeking discipline, one-day pretotypes, pre-registered briefs |
-| `ai-product-prds` | Eval-first AI specs: golden datasets, hallucination tiers, cost gates, HITL & escalation design |
-| `failure-analysis` | Klein pre-mortems, blameless Allspaw-style postmortems, kill retros; refuses blame documents and unfalsifiable lessons |
+| Skill | What it does | Understands when you search for |
+| :--- | :--- | :--- |
+| `product-strategy` | ICP-first strategy with DHM moats, GLEe horizon exit criteria, GEM sequencing, OKRs | ICP, moats, DHM, GLEe, GEM, OKRs, product vision |
+| `customer-discovery` | Continuous discovery, Opportunity Solution Trees, Mom-Test interviewing, churn triangulation | Mom Test, churn interviews, OST, JTBD, recruitment screener, user interviews |
+| `prd-writing` | Outcome briefs vs shaped pitches, context gate, evidence-weight rules, pushback protocol | PRD, product brief, pitch, one-pager, spec, kill criteria |
+| `prioritization` | Evidence-cited ranking, RICE-vs-debate decision criteria, GEM alignment checks | RICE, ICE, T-shirt sizing, backlog, "what should we build next" |
+| `roadmap-planning` | Now/Next/Later horizons, hill charts, exec-safe uncertainty communication | roadmap, Now-Next-Later, horizons, hill charts, "when does it ship", dated plan |
+| `metrics-analysis` | Step-0 instrumentation checks before diagnosis, North Star design, cohort & funnel discipline | North Star, AARRR, activation, retention, cohorts, vanity metrics, tracking plan |
+| `pricing-packaging` | Value metrics, willingness-to-pay research, packaging, price-rise playbooks | value metric, WTP, Van Westendorp, tiers, packaging, price increase |
+| `gtm-launch` | Positioning (Dunford), GTM motion selection, staged rollout gates | positioning, PLG, sales-led, launch checklist, rollout, GTM |
+| `growth-loops` | Loop taxonomy & mechanics, activation discipline, "no growth before retention" rule | growth loop, k-factor, virality, referrals, aha moment, activation |
+| `decision-journal` | Prediction logging with calibration retros; small-sample vs large-sample rules | decision journal, predictions, calibration, retro |
+| `stakeholder-updates` | Outcome-based updates, health ratings, bad-news-early protocol | stakeholder update, exec readout, board update, status report |
+| `empowered-teams` | Empowered vs feature teams, outcome charters, team-topology transitions | empowered team, feature team, team charter, build trap |
+| `glossary` | 34 canonical terms with owner attribution, usage-fork notes; refuses invented etymology | PM jargon, terminology, "what does X mean" |
+| `user-stories` | JTBD job stories, story mapping, INVEST/Gherkin craft, splitting patterns, volume-demand pushback | user stories, INVEST, Gherkin, story map, splitting |
+| `experiment-design` | Experiment menu with power/peeking discipline, one-day pretotypes, pre-registered briefs | A/B test, fake door, pretotype, power, peeking, readout |
+| `ai-product-prds` | Eval-first AI specs: golden datasets, hallucination tiers, cost gates, HITL & escalation design | AI feature spec, golden dataset, hallucination bar, evals, LLM cost |
+| `failure-analysis` | Klein pre-mortems, blameless Allspaw-style postmortems, kill retros; refuses blame documents and unfalsifiable lessons | pre-mortem, postmortem, five whys, root cause, blameless, kill retro |
 
 Every skill ships with `references/` (deep frameworks, each with Definition / When to use / When NOT to use / Worked Example / Source URL); skills whose workflow produces artifacts also ship `assets/` fill-in templates. All 17 are covered by scenario evals in `evals/`.
-
-## This suite understands
-
-An agent searching for skills — through the skills.sh index, `npx skills find`, or a plain web search — matches on these terms as much as on skill names; each links to the skill that owns it: ICP, moats, DHM, GLEe, GEM, OKRs (`product-strategy`); customer interviews, Mom Test, churn interviews, OST, JTBD, recruitment screener (`customer-discovery`); PRD, product brief, pitch, one-pager, spec, kill criteria (`prd-writing`); user stories, INVEST, Gherkin, story mapping, story splitting (`user-stories`); prioritize, RICE, ICE, T-shirt sizing, backlog, roadmap ranking (`prioritization`); roadmap, Now-Next-Later, horizons, hill charts, "when does it ship" (`roadmap-planning`); experiments, A/B test, fake door, pretotype, power, peeking, readout (`experiment-design`); AI feature specs, golden datasets, hallucination rates, evals, LLM cost gates (`ai-product-prds`); activation, retention, cohorts, funnels, North Star, AARRR, vanity metrics, tracking plans (`metrics-analysis`); pricing, value metric, willingness to pay, Van Westendorp, tiers, packaging, price increase (`pricing-packaging`); launch, positioning, PLG, sales-led, rollout, GTM (`gtm-launch`); growth loops, k-factor, virality, referrals, aha moment (`growth-loops`); pre-mortem, postmortem, root cause, five whys, blameless, kill retro (`failure-analysis`); stakeholder update, exec readout, board update, status report (`stakeholder-updates`); decision journal, calibration, predictions, retros (`decision-journal`); empowered teams, feature teams, charters, build trap (`empowered-teams`); any PM term or jargon, translations and forks (`glossary`).
 
 ## Install
 
